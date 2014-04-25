@@ -7,12 +7,10 @@ development:
   password: 123456
 
 test:
-  adapter: postgresql
-  encoding: unicode
-  database: dummy_test
+  adapter: sqlite3
+  database: db/test.sqlite3
   pool: 5
-  username: test_user
-  password: 123456
+  timeout: 5000
 
 production:
   adapter: postgresql

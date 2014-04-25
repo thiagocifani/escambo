@@ -12,3 +12,14 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
+
+gem 'anjlab-bootstrap-rails', '~> 3.0', :require => 'bootstrap-rails'
+gem 'jquery-rails'
+gem 'paperclip'
+gem 'sass-rails'
+gem 'simple_form'
+
+
+group :test do
+  gem 'sqlite3'
+end
