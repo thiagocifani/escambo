@@ -31,10 +31,9 @@ GEM
       multi_json (~> 1.3)
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
-    anjlab-bootstrap-rails (3.0.3.0)
-      railties (>= 3.0)
-      sass (>= 3.2)
     arel (4.0.2)
+    bootstrap-sass (3.1.1.1)
+      sass (~> 3.2)
     builder (3.1.4)
     climate_control (0.0.3)
       activesupport (>= 3.0)
@@ -106,11 +105,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  anjlab-bootstrap-rails (~> 3.0)
+  bootstrap-sass (~> 3.1.1)
   escambo!
   jquery-rails
   paperclip
   pg
-  sass-rails
+  sass-rails (>= 3.2)
   simple_form
   sqlite3

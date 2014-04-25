@@ -13,11 +13,11 @@ gemspec
 # To use debugger
 # gem 'debugger'
 
-gem 'anjlab-bootstrap-rails', '~> 3.0', :require => 'bootstrap-rails'
 gem 'jquery-rails'
 gem 'paperclip'
-gem 'sass-rails'
 gem 'simple_form'
+gem 'sass-rails', '>= 3.2'
+gem 'bootstrap-sass', '~> 3.1.1'
 
 
 group :test do
